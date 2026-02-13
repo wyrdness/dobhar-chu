@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-02-13",
+    "repository": "https://github.com/wyrdness/dobhar-chu",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "dobhar-chu",
+    "name": "Dobhar-chú (Irish Water Hound)",
+    "aliases": [],
+    "category": "CRYPTID",
+    "subcategory": "Water Cryptid / Otter-Hound Hybrid",
+    "tags": [
+      "of-period"
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "The dobhar-chú (pronounced \\\"dower-hoo\\\" or \\\"dur-a-khoo\\\"), meaning \\\"water hound\\\" in Irish Gaelic, is a fearsome cryptid from Irish folklore described as a massive, otter-like creature with canine characteristics.",
+      "full": "The dobhar-chú (pronounced \\\"dower-hoo\\\" or \\\"dur-a-khoo\\\"), meaning \\\"water hound\\\" in Irish Gaelic, is a fearsome cryptid from Irish folklore described as a massive, otter-like creature with canine characteristics. Known as the \\\"King Otter\\\" or \\\"Master Otter,\\\" this aggressive water beast inhabits lakes and rivers throughout Ireland, particularly in County Leitrim and other regions of the northwest. The dobhar-chú is renowned for its extreme ferocity, territorial behavior, and vengeful nature, with the most famous account being the 1722 death of Grace Connolly, whose gravestone at Conwall Cemetery features a carved image of the creature that allegedly killed her. Unlike benign water spirits, the dobhar-chú is consistently portrayed as a dangerous predator that attacks humans and livestock without provocation, making it one of Ireland's most feared cryptozoological entities."
+    },
+    "etymology": {
+      "origin": "Irish",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Water Cryptid / Otter-Hound Hybrid",
+      "subtype": "Unknown",
+      "variant": "Unknown"
+    },
+    "related_phenomena": []
+  },
+  "characteristics": {
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
+    },
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Irish",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "Irish",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
+    }
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
+}
