@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/dobhar-chu",
     "maintainers": [
       {
@@ -16,110 +16,283 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "dobhar-chu",
-    "name": "Dobhar-chú (Irish Water Hound)",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "Water Cryptid / Otter-Hound Hybrid",
-    "tags": [
-      "of-period"
+    "name": "Dobhar-chú",
+    "aliases": [
+      { "name": "Dobarcu", "language": "Irish Gaelic", "region": "Ireland" },
+      { "name": "Doyarchu", "language": "Irish Gaelic", "region": "Ireland" },
+      { "name": "Dhuragoo", "language": "Irish Gaelic", "region": "Ireland" },
+      { "name": "Dorraghow", "language": "Irish Gaelic", "region": "Ireland" },
+      { "name": "Anchu", "language": "Irish Gaelic", "region": "Ireland" },
+      { "name": "King Otter", "language": "English", "region": "Ireland", "meaning": "Ruler or master of otters" },
+      { "name": "Master Otter", "language": "English", "region": "Ireland" },
+      { "name": "Water Hound", "language": "English", "region": "Ireland", "meaning": "Direct translation of dobhar-chú" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Aquatic cryptid / otter-hound hybrid",
+    "tags": [
+      "cryptid",
+      "water-creature",
+      "ireland",
+      "celtic",
+      "otter",
+      "lake-monster",
+      "ireland-folklore",
+      "aggressive"
+    ],
+    "status": "active",
     "description": {
-      "summary": "The dobhar-chú (pronounced \\\"dower-hoo\\\" or \\\"dur-a-khoo\\\"), meaning \\\"water hound\\\" in Irish Gaelic, is a fearsome cryptid from Irish folklore described as a massive, otter-like creature with canine characteristics.",
-      "full": "The dobhar-chú (pronounced \\\"dower-hoo\\\" or \\\"dur-a-khoo\\\"), meaning \\\"water hound\\\" in Irish Gaelic, is a fearsome cryptid from Irish folklore described as a massive, otter-like creature with canine characteristics. Known as the \\\"King Otter\\\" or \\\"Master Otter,\\\" this aggressive water beast inhabits lakes and rivers throughout Ireland, particularly in County Leitrim and other regions of the northwest. The dobhar-chú is renowned for its extreme ferocity, territorial behavior, and vengeful nature, with the most famous account being the 1722 death of Grace Connolly, whose gravestone at Conwall Cemetery features a carved image of the creature that allegedly killed her. Unlike benign water spirits, the dobhar-chú is consistently portrayed as a dangerous predator that attacks humans and livestock without provocation, making it one of Ireland's most feared cryptozoological entities."
+      "summary": "The Dobhar-chú is a fearsome Irish cryptid described as a massive otter-like creature approximately 10–15 feet long with a white pelt and a black cross on its back, known for extreme ferocity and territorial aggression toward humans.",
+      "full": "The Dobhar-chú (pronounced 'dower-hoo' or 'dur-a-khoo') is a creature from Irish folklore described as a massive, otter-like beast with canine characteristics. The name derives from Irish: dobhar (water) and cú (hound), making 'water hound.' Dobharchú is also one of the two most common Irish words for 'otter,' suggesting the legend evolved from exaggerated accounts of large otters. The creature is approximately 10–15 feet long — roughly five times larger than a normal otter — and is typically described with a white pelt, black ear tips, and a distinctive black cross marking on its back. It inhabits lakes and rivers throughout Ireland, particularly in County Leitrim. The most famous documented account concerns the 1722 death of Grace McGloighlin (née Connolly) at Glenade Lough, County Leitrim. A sandstone headstone at Conwall cemetery depicting the creature commemorates this incident. Unlike benign water spirits, the Dobhar-chú is consistently portrayed as a dangerous predator that attacks humans and livestock, making it one of Ireland's most feared cryptozoological entities. A 2003 sighting was reported on Omey Island, Connemara, County Galway."
     },
     "etymology": {
-      "origin": "Irish",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Irish Gaelic; derives from ancient Celtic water-word",
+      "meaning": "Dobhar (water, an ancient form found across Celtic languages) + cú (hound) = 'water hound.' Dobharchú is also one of the standard Irish words for otter.",
+      "first_use": "Irish oral tradition; earliest written documentation dates to the 18th century (the Conwall headstone, c. 1722)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Water Cryptid / Otter-Hound Hybrid",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Aquatic cryptid",
+      "subtype": "Giant otter / canine hybrid",
+      "variant": "Irish"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "each-uisce", "name": "Each-uisce", "relationship": "related", "description": "Irish water horse; another dangerous aquatic creature from Celtic folklore" },
+      { "id": "kelpie", "name": "Kelpie", "relationship": "similar", "description": "Scottish water horse; dangerous shape-shifting aquatic spirit" },
+      { "id": "loch-ness-monster", "name": "Loch Ness Monster", "relationship": "similar", "description": "Scottish large lake cryptid; shares the large aquatic creature archetype" },
+      { "id": "afanc", "name": "Afanc", "relationship": "similar", "description": "Welsh aquatic monster from Celtic tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.5, "max": 1.0, "unit": "meters", "confidence": "low" },
+      "weight": { "min": 100, "max": 300, "unit": "kilograms", "confidence": "low" },
+      "coloration": ["white", "white with black ear tips", "possibly darker in murky water habitats"],
+      "features": [
+        { "feature": "Enormous size", "description": "Approximately 10–15 feet (3.0–4.6 m) in length, roughly five times larger than a normal otter", "frequency": "always" },
+        { "feature": "White pelt", "description": "Typically described as white or very pale; black-tipped ears", "frequency": "common" },
+        { "feature": "Black cross marking", "description": "A distinctive black cross or cruciform marking on its back", "frequency": "common" },
+        { "feature": "Otter-like body", "description": "General body plan resembling an enormous otter with elongated form suited to aquatic life", "frequency": "always" },
+        { "feature": "Canine characteristics", "description": "Some accounts describe dog-like features including head shape", "frequency": "occasional" }
+      ],
+      "morphology": "A giant otter-like form approximately five times the size of a normal otter (Lutra lutra). The distinctive coloration — white body with black markings — and the black cross on the back distinguish it from known species. The Conwall cemetery headstone provides the earliest pictorial representation."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Calling its mate", "description": "In the 1722 account, after being fatally wounded, the creature emitted 'a whistling yell to its mate,' summoning a second Dobhar-chú", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Extreme speed in water", "description": "Said to be exceptionally fast in water, pursuing and overtaking people in boats", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Territorial aggression", "description": "Attacks humans and livestock that approach its habitat without provocation", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "pair",
+      "habitat_preference": ["freshwater lakes", "rivers", "coastal inlets of Ireland"],
+      "diet": "Presumably fish and large prey; reportedly attacks and kills humans",
+      "patterns": [
+        "Inhabits lakes and rivers; attacks persons who come to the water's edge",
+        "Believed to live in pairs; killing one may summon its mate",
+        "Particularly associated with Glenade Lough, County Leitrim"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Irish",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Found in Irish folklore associated with lakes and rivers throughout Ireland, particularly in the northwest. Most accounts concentrate in County Leitrim. A 2003 sighting report came from Omey Island, Connemara, County Galway.",
+      "continents": ["Europe"],
+      "countries": ["Ireland"],
+      "regions": [
+        "County Leitrim",
+        "Connemara, County Galway",
+        "Northwest Ireland"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Glenade Lough",
+        "location": {
+          "description": "Glenade Lough, near Creevelea, County Leitrim",
+          "country": "Ireland",
+          "region": "County Leitrim",
+          "coordinates": { "latitude": 54.3167, "longitude": -8.2167 }
+        },
+        "notes": "Site of the famous 1722 Grace McGloighlin encounter; nearby Conwall cemetery contains the commemorative headstone"
+      },
+      {
+        "name": "Omey Island",
+        "location": {
+          "description": "Omey Island, Connemara",
+          "country": "Ireland",
+          "region": "County Galway"
+        },
+        "notes": "Site of a 2003 reported sighting"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1722-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Conwall cemetery headstone commemorating the death of Grace McGloighlin, c. 1722"
+      },
+      "peak_activity_periods": [
+        { "period": "18th century", "description": "Earliest documented written accounts, including the Glenade Lough headstone" }
+      ],
+      "seasonal_patterns": "No consistent seasonal pattern documented."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Irish",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Irish and broader Celtic tradition of dangerous water creatures. The Dobhar-chú appears to have originated as a mythologized account of giant or unusually aggressive otters in Irish lakes, combined with the widespread Celtic belief in malevolent aquatic spirits.",
+      "earliest_accounts": "The Conwall cemetery headstone at Conwall, County Leitrim, is the most famous physical artifact — a sandstone slab depicting the creature and commemorating a woman killed by it, dated to approximately 1722.",
+      "folklore_connections": "Relates to the broad category of Celtic water monsters including the each-uisce (water horse) and afanc. The 'master otter' concept (a supernaturally large otter that rules other otters) appears in various Irish and Scottish traditions."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1722-01-01", "event": "Grace McGloighlin (née Connolly) reportedly killed by a Dobhar-chú at Glenade Lough, County Leitrim; her husband Terrence killed both the creature and its mate", "significance": "The most famous and best-documented historical account; commemorated on a grave marker at Conwall cemetery", "source": "Conwall cemetery headstone; Wikipedia article on Dobhar-chú" },
+      { "date": "2003-01-01", "event": "A sighting of a large otter-like creature reported on Omey Island, Connemara, County Galway", "significance": "Most recent documented sighting report", "source": "Wikipedia article on Dobhar-chú" }
+    ],
+    "modern_era": "The Dobhar-chú remains a subject of Irish cryptozoological interest. The Conwall cemetery headstone continues to be a tourist attraction and a frequently cited piece of physical evidence for the legend."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 2,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 2,
+      "debunked": 0,
+      "date_range": { "earliest": "1722", "latest": "2003" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "dobhar-chu-sighting-1722-glenade",
+        "name": "Grace McGloighlin / Glenade Lough attack",
+        "date": { "value": "1722-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Glenade Lough, near Creevelea, County Leitrim, Ireland",
+          "country": "Ireland",
+          "region": "County Leitrim",
+          "coordinates": { "latitude": 54.3167, "longitude": -8.2167, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Terrence McGloighlin (husband)"], "credibility_factors": ["Commemorated on a grave marker at Conwall cemetery"] },
+        "description": "Grace McGloighlin, wife of Terrence McGloighlin, went to the lough and was attacked and killed by a Dobhar-chú while washing clothes. Her husband found her body with the creature resting on it, killed the beast, but the dying creature emitted a whistling yell to its mate. A second Dobhar-chú appeared, and after a prolonged chase and battle, Terrence killed it too. The event is commemorated on a sandstone headstone at Conwall cemetery that depicts the creature.",
+        "conditions": { "time_of_day": "Daytime", "weather": "Unknown" },
+        "evidence": ["Sandstone headstone at Conwall cemetery depicting the Dobhar-chú"],
+        "credibility": { "rating": "low", "factors": ["Commemorative headstone provides physical artifact", "Account is from oral tradition recorded well after the event"], "notes": "The headstone is a genuine 18th-century artifact; the story it commemorates cannot be independently verified." },
+        "sources": ["Wikipedia article on Dobhar-chú"],
+        "featured": true
+      },
+      {
+        "id": "dobhar-chu-sighting-2003-omey",
+        "name": "Omey Island sighting",
+        "date": { "value": "2003-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Omey Island, Connemara, County Galway, Ireland",
+          "country": "Ireland",
+          "region": "County Galway",
+          "coordinates": { "latitude": 53.5333, "longitude": -10.1167, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Unknown witness"], "credibility_factors": [] },
+        "description": "A large otter-like creature was reported near Omey Island, Connemara, in 2003.",
+        "conditions": {},
+        "evidence": [],
+        "credibility": { "rating": "unverified", "factors": ["No corroborating evidence"], "notes": "Details are sparse; reported as a Dobhar-chú sighting in secondary sources." },
+        "sources": ["Wikipedia article on Dobhar-chú"],
+        "featured": false
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "dobhar-chu-conwall-headstone",
+        "type": "artifact",
+        "name": "Conwall Cemetery headstone",
+        "date": "1722",
+        "description": "Sandstone grave marker at Conwall Cemetery, County Leitrim, depicting a creature with an otter-like body attacking a human figure. Commemorates the death of Grace McGloighlin. It is among the earliest physical depictions of the Dobhar-chú.",
+        "location": "Conwall Cemetery, County Leitrim, Ireland",
+        "status": "verified",
+        "analysis": "The headstone is a genuine 18th-century artifact. Its carving depicts an otter-like creature and is accepted as a real historical object. The story it commemorates is folklore.",
+        "source": "Wikipedia article on Dobhar-chú"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Supernatural water entity",
+        "description": "The Dobhar-chú is a genuine supernatural creature of Irish tradition, a sentient and malevolent water spirit that takes the form of a giant otter.",
+        "proponents": ["Irish folk tradition"],
+        "evidence_cited": ["Consistent accounts across centuries", "Conwall headstone as physical testimony"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Giant otter misidentification",
+        "description": "Reports may stem from encounters with unusually large Eurasian otters (Lutra lutra) or other mustelids, exaggerated through retelling.",
+        "proponents": ["Cryptozoologists who favor zoological explanations"],
+        "evidence_cited": ["Eurasian otters can reach 1.3 m in length and are capable of aggression", "The basic body plan matches known otter species"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Folklore elaboration of otter attacks",
+        "description": "The Dobhar-chú legend developed from rare but real aggressive encounters with large otters, combined with the Celtic tradition of malevolent water creatures, and was perpetuated through oral tradition.",
+        "proponents": ["Folklore scholars"],
+        "evidence_cited": ["No carcass or specimen ever recovered", "No photographs or video evidence exist", "The legend fits standard Celtic water-monster typology"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Irish Celtic water creature tradition",
+        "County Leitrim local oral tradition",
+        "Irish 'master otter' / king otter tradition"
+      ],
+      "stories": [
+        "Grace McGloighlin killed at Glenade Lough (c. 1722); husband kills both the creature and its mate",
+        "The Dobhar-chú calls its mate with a whistling yell when mortally wounded"
+      ],
+      "beliefs": "The Dobhar-chú is treated as a real and dangerous animal in traditional Irish folklore, not a supernatural spirit. Fishermen and those who work near lakes have historically treated it with caution."
     },
     "popular_culture": {
       "literature": [],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "The Conwall cemetery headstone is a popular visitor site for cryptozoology enthusiasts in County Leitrim"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Occasional cryptozoological investigation of Irish lake creature reports. No systematic academic study."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-dobhar-chu",
+      "type": "website",
+      "title": "Dobhar-chú — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dobhar-ch%C3%BA",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
